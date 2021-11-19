@@ -8,7 +8,7 @@
 
 <h3>ʀᴇQᴜɪʀᴇᴍᴇɴᴛꜱ 📝</h3>
 
-- FFmpeg
+- FFmpe
 - NodeJS [nodesource.com](https://nodesource.com/)
 - Python 3.8+ or 3.7
 - [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
