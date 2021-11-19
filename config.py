@@ -20,7 +20,7 @@ COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ . !").split())
 BOT_OWNER = int(os.environ.get("BOT_OWNER")) # Your Telegram User ID
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split())) # Sudo users IDs, They are admins everywhere
 BOT_USERNAME = os.environ.get("BOT_USERNAME") # Your Bot's Username without "@"
-DATABASE_URL = os.environ.get("DATABASE_URL") #mongo database url for more info contact in support group
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Vijay:vijay@cluster0.qimka.mongodb.net/Vijay?retryWrites=true&w=majority") #mongo database url for more info contact in support group
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL")) # Your Log Channel! Make a private channel and get it's ID
 BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False)) # If you need to broadcast messages as a copy or Forwarded Message
 THUMB_URL = os.environ.get("THUMB_URL", "https://telegra.ph/file/0bb51f04fa6fe2252c945.jpg")
